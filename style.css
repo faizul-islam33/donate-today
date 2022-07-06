@@ -49,15 +49,8 @@ h2 {
     margin-bottom: 150px;
 }
 
-.donate {
-    text-align: center;
-    color: #707070;
-    font-weight: 200;
-    font-size: 25px;
-}
 
-
-.amount {
+.donation-area {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -79,7 +72,7 @@ h2 {
 #marked {
     color: #FF5959;
     border: 5px solid #FF5959;
-    background-color: rgba(255, 89, 89, 0.1);
+    background-color: #FFEFEF;
 }
 
 .input-field {
@@ -98,6 +91,43 @@ h2 {
 }
 
 
+.donation-sectors {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 352px;
+    text-align: left;
+    margin: 12px;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+
+#food {
+    background-color: #EEF6F7;
+}
+
+#shelter {
+    background-color: #FFEFEF;
+}
+
+#education {
+    background-color: #FFF4D6;
+}
+
+.donation-sectors img {
+    width: 55px;
+}
+
+.sector-description {
+    color: #707070;
+    text-align: left;
+    font-size: 16px;
+}
+
+
+
+
 
 .updates {
     display: flex;
@@ -106,7 +136,7 @@ h2 {
     margin-bottom: 100px;
 }
 
-.update-description {
+.description {
     color: #707070;
     text-align: center;
     font-size: 18px;
