@@ -35,6 +35,7 @@ p {
     color: white;
     background-color: #FF5959;
     border-radius: 5px;
+    font-weight: 600;
 }
 
 
@@ -57,32 +58,34 @@ h2 {
 }
 
 .box {
+    text-align: center;
+    font-family: in;
     color: #707070;
+    font-family: 'Inter', sans-serif;
     background-color: #FAFAFA;
-    font-size: 35px;
-    border-radius: 5px;
-    width: 125px;
-    height: 125px;
+    font-size: 30px;
+    border-radius: 3px;
+    width: 135px;
+    height: 80px;
     margin: 12px;
-    padding: 10px;
-    padding-top: 10px;
-    font-weight: 700;
+    font-weight: bold;
+    padding-top: 40px;
 }
 
 #marked {
     color: #FF5959;
-    border: 5px solid #FF5959;
+    border: 3px solid #FF5959;
     background-color: #FFEFEF;
 }
 
 .input-field {
+    color: #B3B3B3;
     margin: auto;
-    width: 700px;
+    width: 765px;
     font-size: 20px;
-    color: #707070;
     margin-top: 50px;
     text-align: center;
-    border-bottom: 2px solid #707070;
+    border-bottom: 2px solid #B3B3B3;
 }
 
 .anchor {
@@ -90,6 +93,13 @@ h2 {
     text-align: center;
 }
 
+
+
+
+
+.donate-plan {
+    margin-bottom: 120px;
+}
 
 .donation-sectors {
     display: flex;
@@ -125,6 +135,17 @@ h2 {
     font-size: 16px;
 }
 
+
+
+
+
+.trust {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #FFEFEF;
+    margin-bottom: 100px;
+    text-align: center;
+}
 
 
 
