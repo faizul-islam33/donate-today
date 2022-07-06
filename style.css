@@ -1,28 +1,31 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
-    overflow-x: hidden;
 }
 
 .top-banner {
-    transform: translateY(-42px);
-    transform: translateX(45px);
-    background-image: url(./images/donation7.jpg);
+    background-image: url(./images/donation13.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-    width: 1900px;
-    height: 800px;
-    margin-bottom: 200px;
+    margin-bottom: 80px;
+    height: 600px;
+    transform: translateY(-45px);
+    padding-top: 200px;
 }
 
 h1 {
+    font-family: 'Inter', sans-serif;
     color: white;
-    font-size: 50px;
+    font-size: 65px;
+    font-weight: bold;
 }
 
 p {
     color: white;
+    font-size: 18px;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .link-button {
@@ -41,7 +44,9 @@ p {
 
 
 h2 {
-    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 45px;
     text-align: center;
 }
 
@@ -75,6 +80,7 @@ h2 {
 #marked {
     color: #FF5959;
     border: 3px solid #FF5959;
+    border-radius: 5px;
     background-color: #FFEFEF;
 }
 
@@ -163,9 +169,15 @@ h2 {
     font-size: 18px;
 }
 
+#updates-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
 .email-box {
     margin-top: 30px;
-    margin-left: 360px;
     padding-top: 100px;
     display: flex;
     flex-direction: row;
@@ -222,6 +234,6 @@ footer {
 .footer-text {
     padding-top: 30px;
     font-family: 'Manrope', sans-serif;
-    color: white;
+    color: #D9DBE1;
     font-size: 14px;
 }
